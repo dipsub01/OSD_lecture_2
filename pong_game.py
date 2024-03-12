@@ -2,7 +2,7 @@ import turtle as t
 import os
 
 playerAscore=0
-playerBscore=0
+playerBscore=1
   
 #create a window and declare a variable called window and call the screen()
 window=t.Screen()
