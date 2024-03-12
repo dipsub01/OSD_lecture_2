@@ -7,7 +7,7 @@ playerBscore=0
 #create a window and declare a variable called window and call the screen()
 window=t.Screen()
 window.title("The Pong Game")
-window.bgcolor("green")
+window.bgcolor("black")
 window.setup(width=800,height=600)
 window.tracer(0)
   
@@ -33,7 +33,7 @@ rightpaddle.goto(350,0)
 ball=t.Turtle()
 ball.speed(2)
 ball.shape("circle")
-ball.color("red")
+ball.color("yellow")
 ball.penup()
 ball.goto(5,5)
 ballxdirection=0.2
