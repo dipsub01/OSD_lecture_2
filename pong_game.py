@@ -2,7 +2,7 @@ import turtle as t
 import os
 
 playerAscore=0
-playerBscore=1
+playerBscore=0
   
 #create a window and declare a variable called window and call the screen()
 window=t.Screen()
@@ -31,7 +31,7 @@ rightpaddle.goto(350,0)
   
 #Code for creating the ball
 ball=t.Turtle()
-ball.speed(4)
+ball.speed(14)
 ball.shape("circle")
 ball.color("red")
 ball.penup()
