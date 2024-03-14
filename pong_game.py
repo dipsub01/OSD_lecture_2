@@ -32,7 +32,7 @@ rightpaddle.goto(350,0)
 #Code for creating the ball
 ball=t.Turtle()
 ball.speed(2)
-ball.shape("circle")
+ball.shape("triangle")
 ball.color("yellow")
 ball.penup()
 ball.goto(5,5)
